@@ -46,36 +46,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/min\/script-min.js": {
+	"\/min\/jquery.adaptive-backgrounds-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/min\/script-min.js",
-		"outputAbbreviatedPath": "\/min\/min\/script-min-min.js",
+		"inputAbbreviatedPath": "\/min\/jquery.adaptive-backgrounds-min.js",
+		"outputAbbreviatedPath": "\/min\/min\/jquery.adaptive-backgrounds-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/script.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/script.js",
-		"outputAbbreviatedPath": "\/min\/script-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
 		},
 	"\/style.css": {
 		"fileType": 16,
