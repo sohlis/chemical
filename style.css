@@ -3,29 +3,33 @@ img {
   height: 100%;
   border: 8px solid white;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.35);
+  width: 60vw;
+  margin: 5vw 9vw;
 }
 
 .container {
   width: 100%;
 }
 
-.container:nth-of-type(1) {
+.color-bar {
+  height: 320px;
+  position: relative;
+  top: calc(60vw - 1377px);
+  z-index: -10;
+}
+
+.color-bar:nth-of-type(1) {
   background-color: #A49D94
 }
 
-.container:nth-of-type(2) {
+.color-bar:nth-of-type(2) {
   background-color: #6C9294
 }
 
-.container:nth-of-type(3) {
+.color-bar:nth-of-type(3) {
   background-color: #8A7A6A
 }
 
-.container:nth-of-type(4) {
+.color-bar:nth-of-type(4) {
   background-color: #AC2A24
-}
-
-.img-container {
-  width: 60vw;
-  padding: 5vw 9vw;
 }
