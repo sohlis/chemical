@@ -4,6 +4,7 @@ body {
   font-family: 'Source Serif Pro', serif;
   color: white;
   margin: 0;
+  counter-reset: section;
 }
 
 img {
@@ -18,22 +19,7 @@ img {
 .container {
   width: 100%;
   height: 100vh;
-}
-
-.container:nth-of-type(1) {
-  /*background-color: #A49D94*/
-}
-
-.container:nth-of-type(2) {
-  /*background-color: #6C9294*/
-}
-
-.container:nth-of-type(3) {
-  /*background-color: #8A7A6A*/
-}
-
-.container:nth-of-type(4) {
-  /*background-color: #AC2A24*/
+  counter-reset: subsection;
 }
 
 .img-container {
@@ -49,4 +35,8 @@ p {
 p span {
   display: block;
   font-size: 2vh;
+}
+p span:before {
+    counter-increment: section;
+    content: "Fig. " counter(section) "";
 }
