@@ -1,10 +1,23 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600);
+@import url(fonts/stylesheet.css);
 
 body {
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'gt_sectra_finebook_italic', serif;
   color: white;
   margin: 0;
   counter-reset: section;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  text-rendering: auto;
+}
+
+h1 {
+  padding-top: 64vh;
+  padding-left: 6vh;
+  font-size: 8vh;
+  color: white;
+  margin: 0;
+  font-weight: normal;
 }
 
 img {
@@ -28,15 +41,18 @@ img {
 }
 
 p {
-  padding-top: 70.5vh;
-  font-size: 3vh;
+  padding-top: 64.4vh;
+  font-size: 2.4vh;
+  line-height: 1.6;
 }
 
 p span {
   display: block;
-  font-size: 2vh;
+  font-size: 5vh;
 }
+
 p span:before {
-    counter-increment: section;
-    content: "Fig. " counter(section) "";
+  font-family: 'gt_sectra_finebook_italic', serif;
+  counter-increment: section;
+  content: "figur " counter(section) "";
 }

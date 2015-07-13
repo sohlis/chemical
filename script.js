@@ -14,7 +14,7 @@ var robotColorOne = chroma.random();
 var robotColorTwo = chroma.random();
 // Mixes the two colors. the value is where on the spectrum it should pull the mix from
 var colorOne = chroma.interpolate(myColorOne, robotColorOne, 0.01, 'lab');
-var colorTwo = chroma.interpolate(myColorTwo, robotColorTwo, 0.5, 'lab')
+var colorTwo = chroma.interpolate(myColorTwo, robotColorTwo, 0.01, 'lab')
 // Then makes a scale between the two (accessible by `scale(0-1)`)
 var scale = chroma.scale([colorTwo, colorOne]).mode('lab');
 // Initial value of the start of the scale
