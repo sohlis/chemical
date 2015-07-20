@@ -1,4 +1,4 @@
-
+// COLORS
 var items = [
               ['#FAE4E9','#BBACC1'],
               ['#909580','#545643'],
@@ -26,5 +26,22 @@ for (var i = 0; i < $('.container').length; i++) { //for every .container in doc
   $( ".container:nth-of-type(" + (i+1) +")" ).css("background-color", scale(scaleValue).hex());  // using the nth of type to select each container, the Chromajs scale to pick colors
   scaleValue = scaleValue + scaleIncrementer; // add it for more scales!
 };
+// END COLORS
 
+// FULLSCREEN
+
+
+
+$( ".container" ).each(function() {
+  $( this ).addClass( "click-me" );
+
+  $('.click-me').click(function() {
+    $('.click-me img').css({
+      width: '91vw'
+    });
+    $('.click-me').css({
+      height: '100%'
+    });
+  });
+});
 
